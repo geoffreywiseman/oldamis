@@ -1,0 +1,31 @@
+{
+  "name": "@codiform/oldamis",
+  "version": "1.0.0",
+  "description": "Find Old and Deprecated AMIs in use in your AWS account.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "index.js"
+  },
+  "keywords": [
+    "aws",
+    "amazon web services",
+    "outdated",
+    "deprecated",
+    "ami",
+    "amazon machine image"
+  ],
+  "author": {
+    "name": "Geoffrey Wiseman",
+    "email": "geoffrey.wiseman@codiform.com",
+    "url": "http://codiform.com/"
+  },
+  "license": "Unlicense",
+  "dependencies": {
+    "@aws-sdk/client-auto-scaling": "^3.32.0",
+    "@aws-sdk/client-ec2": "^3.31.0",
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2",
+    "luxon": "^2.0.2"
+  }
+}
