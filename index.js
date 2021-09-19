@@ -7,7 +7,7 @@ const {printBanner, printAmi} = require("./lib/display");
     printBanner();
     const amis = await getAmis();
     const dates = await getAmiDates(Object.keys(amis));
-    for( ami of Object.keys(amis) ) {
-        printAmi(ami, dates[ami], amis[ami].join(', '));
+    for (const ami of Object.keys(amis)) {
+        printAmi(ami, dates[ami], amis[ami]);
     }
 })();
