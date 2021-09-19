@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Find Old and Deprecated AMIs in use in your AWS account.",
   "main": "index.js",
+  "bin": {
+    "oldamis": "index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "main": "index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "aws",

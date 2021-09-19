@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const {EC2Client, DescribeImagesCommand} = require("@aws-sdk/client-ec2");
 const {getAmiDates, getAmis} = require("./lib/aws");
 const {printBanner, printAmi} = require("./lib/display");
