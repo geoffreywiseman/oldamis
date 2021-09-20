@@ -8,7 +8,12 @@ A simple JavaScript CLI tool to:
   * deprecated (`DeprecationTime` in the past)
   * see: [Amazon EC2 adds new AMI property to flag outdated AMIs](https://aws.amazon.com/about-aws/whats-new/2021/06/amazon-ec2-adds-new-ami-property-to-flag-outdated-amis/)
 
-# Example
+## Requirements
+- Node.js 16
+  - I've used modern syntax, and GHA can't build it on Node 12/14.
+  - If there's interest, I could look at supporting older versions -- it would likely be pretty easy, I just haven't done it.
+
+## Example
 This is an example of what `oldamis` looks like in actual use:
 
 ```
@@ -31,7 +36,7 @@ ami ami-0f1c5116668d961c3 is ok, sources:
   - launch config demo-launch-config-2340234
 ```
 
-# Privacy
+## Privacy
 Although `oldamis` needs to use your credentials to access your AWS environment it:
 - will not store / transmit any information about your account
 - does not require any more than read-only permissions
