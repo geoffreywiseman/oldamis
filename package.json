@@ -2,6 +2,12 @@
   "name": "@codiform/oldamis",
   "version": "1.0.1",
   "description": "Find Old and Deprecated AMIs in use in your AWS account.",
+  "homepage": "http://github.com/geoffreywiseman/oldamis",
+  "bugs": "https://github.com/geoffreywiseman/oldamis/issues",
+  "repository": "github:geoffreywiseman/oldamis",
+  "engines": {
+    "node": ">=15.0"
+  },
   "main": "index.js",
   "bin": {
     "oldamis": "index.js"
