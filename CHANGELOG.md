@@ -5,13 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-I've made a milestone for v1.0.1, but I might need to rename it to v1.1.0.
+Minor quality of life improvements to build on the first release.
 
 ### Changed
 - Altered the output format slightly
   - I found that even on very small accounts the list of sources could get pretty long
   - Looks better with the sources listed one per line
 
+### Fixed
+- Improved error handling around CredentialsProviderError.
 
 ## [1.0.0] - 2021-09-18
 First release of `oldamis`.  I read about the `DeprecationTime` flag 
