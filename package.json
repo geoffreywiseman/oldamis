@@ -31,7 +31,7 @@
   "license": "Unlicense",
   "dependencies": {
     "@aws-sdk/client-auto-scaling": "^3.32.0",
-    "@aws-sdk/client-ec2": "^3.31.0",
+    "@aws-sdk/client-ec2": "^3.32.0",
     "chalk": "^4.1.2",
     "figlet": "^1.5.2",
     "luxon": "^2.0.2"
