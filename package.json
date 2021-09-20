@@ -1,13 +1,13 @@
 {
   "name": "@codiform/oldamis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find Old and Deprecated AMIs in use in your AWS account.",
   "main": "index.js",
   "bin": {
     "oldamis": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "aws",
@@ -29,5 +29,9 @@
     "chalk": "^4.1.2",
     "figlet": "^1.5.2",
     "luxon": "^2.0.2"
+  },
+  "devDependencies": {
+    "aws-sdk-client-mock": "^0.5.5",
+    "jest": "^27.2.0"
   }
 }
