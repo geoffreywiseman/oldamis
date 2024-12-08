@@ -1,4 +1,6 @@
 # Old AMIs
+![NPM Downloads](https://img.shields.io/npm/dy/%40codiform%2Foldamis)
+
 A simple JavaScript CLI tool to:
 * determine which AMIs are in use in your AWS account
   * looking at: instances, launch configurations, launch templates
